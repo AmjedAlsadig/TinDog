@@ -1,0 +1,152 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat-Bold";
+}
+p {
+    color: #8f8f8f;
+}
+
+
+/* Containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+#testimonials .container-fluid{
+    padding: 20% 15%;
+}
+
+
+/* Headings */
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size:3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Sections */
+.colored-section {
+    background-color:#ff4c68;
+    color: #fff;
+}
+.white-section {
+    background-color: #fff;
+}
+
+/* Download Buttons */
+.downlaod-button {
+    margin: 3% 5% 3% 0;
+}
+
+/* Title section */
+#title {
+    text-align: left;
+}
+.ml-auto {
+    margin-left: auto;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+.nav-item {
+    margin: 0px 18px;
+}
+.nav-link {
+    font-family: "Montserrat-Light";
+    font-size: 1.5rem;
+}
+/* Title Image */
+.title-image{
+    transform: rotate(25deg);
+    /* Croping the image */
+    position: absolute;
+    width: 19.9%;
+    right: 25%;
+}
+@media (max-width : 1500px){
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        width: 40%;
+        position: static;
+        transform: rotate(0deg);
+        margin-top: 15px;
+    }
+}
+
+/* FEATURES Section */
+#features {
+    position: relative;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+.feature-box {
+    padding: 4.5%;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+
+/* Testemonials Section */
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* Call To Action */
+
+
+/* footer */
+.brands{
+    padding: 15px 7px;
+}
